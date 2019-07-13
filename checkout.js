@@ -1,3 +1,5 @@
+// KMC: Start here (duh)
+
 function calculateItemTotal(item) {
   const total = item.price * (1 - item.discount) * item.quantity
   item.total = parseInt(total * 100) / 100
